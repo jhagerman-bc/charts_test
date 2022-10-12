@@ -1,0 +1,28 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/start.js",
+    "dev": "nodemon src/start.js",
+    "test": "tap --no-coverage  --no-esm"
+  },
+  "dependencies": {
+    "axios": "^1.1.2",
+    "fastify": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1",
+    "tap": "^14.10.2"
+  },
+  "keywords": [
+    "fastify",
+    "node.js",
+    "backend",
+    "server",
+    "http"
+  ],
+  "eslintConfig": {
+    "sourceType": "script"
+  }
+}
