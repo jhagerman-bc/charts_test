@@ -1,4 +1,5 @@
 const MiniLineChart = (data, height = 170, width = 250, color = "#6495ED") => {
+  console.log(data, "j");
   data = data?.values;
   if (!data) return null;
   const stroke = 1;
